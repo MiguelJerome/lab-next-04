@@ -1,0 +1,19 @@
+.header {
+    background-color: #ffabab;
+}
+
+.titre {
+    margin: 0;
+    padding: 1rem;
+}
+
+.logo {
+    width: 3rem;
+    height: auto;
+}
+
+@media(min-width: 40rem) {
+    .header {
+        display: flex;
+    }
+}
